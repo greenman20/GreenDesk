@@ -1,4 +1,0 @@
-This is a test file.
-Created on 2025-11-21.
-
-This file can be used for testing purposes.
