@@ -18,6 +18,14 @@
 
 ## 🚀 Установка
 
+### Вариант 1: Использование готовых исполняемых файлов (рекомендуется)
+
+Скачайте готовые исполняемые файлы из раздела Releases и запустите:
+- **Linux/macOS**: `./RemoteDesktop-Launcher`
+- **Windows**: `RemoteDesktop-Launcher.exe`
+
+### Вариант 2: Из исходного кода
+
 1. Клонируйте репозиторий или скачайте файлы:
 ```bash
 git clone <repository-url>
@@ -28,6 +36,20 @@ cd remote-desktop
 ```bash
 pip install -r requirements.txt
 ```
+
+### Вариант 3: Собрать самостоятельно
+
+```bash
+# Установить PyInstaller
+pip install -r requirements.txt
+
+# Собрать исполняемые файлы
+./build_all.sh  # Linux/macOS
+# или
+build.bat       # Windows
+```
+
+Подробнее см. [BUILD.md](BUILD.md)
 
 ## 📖 Использование
 
